@@ -7,7 +7,7 @@
         "php": "^7.0",
         "maba/gentle-force": "^0.2.1|^0.3",
         "symfony/framework-bundle": "^3.4.26|^4.2.7",
-        "maba/dependency-injection-extra": "^0.1.1|^1.0",
+        "maba/dependency-injection-extra": "dev-master",
         "psr/log": "^1.0"
     },
     "require-dev": {
@@ -45,5 +45,12 @@
         "psr-4": {
             "Maba\\Bundle\\GentleForceBundle\\Tests\\": "tests"
         }
-    }
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/DamienHarper/dependency-injection-extra.git",
+            "type": "git",
+            "no-api": true
+        }
+    ]
 }
